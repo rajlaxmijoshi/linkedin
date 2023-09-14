@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="in.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="in.html" class="logo"><img src="linkedin-webpage-img/images/logo.png" alt=""></a>
+    <div class="search-box">
+        <img src="linkedin-webpage-img/images/search.png" alt="">
+        <input type="text" placeholder="search">
+    </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="linkedin-webpage-img/images/home.png" alt=""><span>home</span></a></li>
+                <li><a href="#"><img src="linkedin-webpage-img/images/network.png" alt=""><span>my network</span></a></li>
+                <li><a href="#"><img src="linkedin-webpage-img/images/jobs.png" alt=""><span>jobs</span></a></li>
+                <li><a href="#"><img src="linkedin-webpage-img/images/message.png" alt=""><span>messaging</span></a></li>
+                <li><a href="#"><img src="linkedin-webpage-img/images/notification.png" alt=""><span>notifications</span></a></li>
+         
+            </ul>
+        </div>
+       
+        <div class="navbar-right">
+            <div class="online">
+            <img src="linkedin-webpage-img/images/user-1.png" class="nav-profile-img" onclick="togglemenu()">
+             </div>
+        </div>
+
+<!--profile drop down menu-->
+<div class="profile-menu-wrap" id="profilemenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="linkedin-webpage-img/images/user-1.png" alt="">
+            <div>
+                <h3>rajlaxmi joshi</h3>
+                <a href="under.html">see your profile</a>
+            </div>
+        </div>
+
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="linkedin-webpage-img/images/feedback.png" alt="">
+            <p>give feedback</p>
+            <span>></span>
+        </a>
+
+
+        <a href="#" class="profile-menu-link">
+            <img src="linkedin-webpage-img/images/setting.png" alt="">
+            <p>setting & privacy</p>
+            <span>></span>
+        </a>
+
+
+        <a href="#" class="profile-menu-link">
+            <img src="linkedin-webpage-img/images/help.png" alt="">
+            <p>help & support</p>
+            <span>></span>
+        </a>
+
+
+
+        <a href="#" class="profile-menu-link">
+            <img src="linkedin-webpage-img/images/display.png" alt="">
+            <p>display & accessibility</p>
+            <span>></span>
+        </a>
+
+
+        <a href="#" class="profile-menu-link">
+            <img src="linkedin-webpage-img/images/logout.png" alt="">
+            <p>logout</p>
+            <span>></span>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+    </nav>
+
+
+<!--nav close-->
+
+<div class="container">
+    <!--left sidebar-->
+    <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+            <img src="linkedin-webpage-img/images/cover-pic.png" width="100%">
+            <div class="sidebar-profile-info">
+                <img src="linkedin-webpage-img/images/user-1.png" alt="">
+                <h1>rajlaxmi</h1>
+                <h3>a student</h3>
+                <ul>
+                    <li>your profile views <span>53</span></li>
+                    <li>your post views <span>78</span></li>
+                    <li>your connection<span>50</span></li>
+                </ul>
+            </div>
+
+<div class="sidebar-profile-link">
+    <a href="#"><img src="linkedin-webpage-img/images/items.png" alt="">my items</a>
+<a href="#"><img src="linkedin-webpage-img/images/premium.png" alt="">try premium</a>
+</div>
+
+
+        </div>
+<div class="sidebar-activity" id="sidebaractivity">
+    <h3>recent </h3>
+    <a href="#"><img src="linkedin-webpage-img/images/recent.png" alt="">web development</a>
+    <a href="#"><img src="linkedin-webpage-img/images/recent.png" alt="">user interface</a>
+    <a href="#"><img src="linkedin-webpage-img/images/recent.png" alt="">online learning</a>
+    <a href="#"><img src="linkedin-webpage-img/images/recent.png" alt="">learn online</a>
+    <a href="#"><img src="linkedin-webpage-img/images/recent.png" alt="">code better</a>
+    <a href="#"><img src="linkedin-webpage-img/images/recent.png" alt="">grouplearning</a>
+
+    <h3>groups</h3>
+    <a href="#"><img src="linkedin-webpage-img/images/group.png" alt="">web design group</a>
+    <a href="#"><img src="linkedin-webpage-img/images/group.png" alt="">html & css learners</a>
+    <a href="#"><img src="linkedin-webpage-img/images/group.png" alt="">python & javascript</a>
+    <a href="#"><img src="linkedin-webpage-img/images/group.png" alt="">learn coding online</a>
+
+<h3>hashtag</h3>
+
+<a href="#"><img src="linkedin-webpage-img/images/hashtag.png" alt="">web development</a>
+<a href="#"><img src="linkedin-webpage-img/images/hashtag.png" alt="">user interface</a>
+<a href="#"><img src="linkedin-webpage-img/images/hashtag.png" alt="">online learning</a>
+
+
+<div class="discover-more-link">
+    <a href="#">discover more</a>
+</div>
+<p id="showmorelink" onclick="toggleactivity()">show more <b>+</b></p>
+</div>
+
+
+
+
+    </div>
+    <!--main-content-->
+    <div class="main-content">
+
+<div class="create-post">
+    <div class="create-post-input">
+        <img src="linkedin-webpage-img/images/user-1.png" alt="">
+        <textarea rows="1" placeholder="write a post"></textarea>
+    </div>
+
+<div class="create-post-links">
+    <li><img src="linkedin-webpage-img/images/photo.png" alt="">photo</li>
+    <li><img src="linkedin-webpage-img/images/video.png" alt="">video</li>
+    <li><img src="linkedin-webpage-img/images/event.png" alt="">event</li>
+    <li>post</li>
+</div>
+
+
+
+</div>
+
+
+<div class="sort-by">
+    <hr>
+    <p>sort by: <span>top <img src="linkedin-webpage-img/images/down-arrow.png" alt=""></span></p>
+</div>
+
+<div class="post">
+    <div class="post-author">
+        <img src="linkedin-webpage-img/images/user-3.png" alt="">
+        <div>
+            <h1>benjamin franklin</h1>
+            <small>founder and ceo at gellelio group | angel investor</small>
+            <small>
+                2 hours ago
+            </small>
+        </div>
+    </div>
+
+<p>the success of every websites depends on search engine optimisation and digital marketing
+    strategy. if you are on first page of all majore search engines then your ahead among your competitors
+</p>
+<img src="linkedin-webpage-img/images/post-image-1.png" width="100%" alt="">
+
+<div class="post-stats">
+    <div>
+        <img src="linkedin-webpage-img/images/thumbsup.png" alt="">
+        <img src="linkedin-webpage-img/images/love.png" alt="">
+        <img src="linkedin-webpage-img/images/clap.png" alt="">
+        <span class="liked-user">anubhav joshi and 75 others</span>
+    </div>
+
+    <div>
+        <span>22 comments &middot; 40 share</span>
+    </div>
+</div>
+
+
+<div class="post-activity">
+    <div>
+        <img src="linkedin-webpage-img/images/user-1.png" class="post-activity-user-icon" alt="">
+   <img src="linkedin-webpage-img/images/down-arrow.png" class="post-activity-arrow-icon" alt="">
+    </div>
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/like.png" alt="">
+        <span>like</span>
+    </div>
+
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/comment.png" alt="">
+        <span>comment</span>
+    </div>
+
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/share.png" alt="">
+        <span>share</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/send.png" alt="">
+        <span>send</span>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="post">
+    <div class="post-author">
+        <img src="linkedin-webpage-img/images/user-4.png" alt="">
+        <div>
+            <h1>sam roy</h1>
+            <small>founder and ceo at gellelio group | angel investor</small>
+            <small>
+                6 hours ago
+            </small>
+        </div>
+    </div>
+
+<p>the success of every websites depends on search engine optimisation and digital marketing
+    strategy. if you are on first page of all majore search engines then your ahead among your competitors
+</p>
+<img src="linkedin-webpage-img/images/post-image-2.png" width="100%" alt="">
+
+<div class="post-stats">
+    <div>
+        <img src="linkedin-webpage-img/images/thumbsup.png" alt="">
+        <img src="linkedin-webpage-img/images/love.png" alt="">
+        <img src="linkedin-webpage-img/images/clap.png" alt="">
+        <span class="liked-user">akash joshi and 75 others</span>
+    </div>
+
+    <div>
+        <span>27 comments &middot; 40 share</span>
+    </div>
+</div>
+
+
+<div class="post-activity">
+    <div>
+        <img src="linkedin-webpage-img/images/user-1.png" class="post-activity-user-icon" alt="">
+   <img src="linkedin-webpage-img/images/down-arrow.png" class="post-activity-arrow-icon" alt="">
+    </div>
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/like.png" alt="">
+        <span>like</span>
+    </div>
+
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/comment.png" alt="">
+        <span>comment</span>
+    </div>
+
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/share.png" alt="">
+        <span>share</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/send.png" alt="">
+        <span>send</span>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="post">
+    <div class="post-author">
+        <img src="linkedin-webpage-img/images/user-5.png" alt="">
+        <div>
+            <h1>benjamin franklin</h1>
+            <small>founder and ceo at gellelio group | angel investor</small>
+            <small>
+                2 hours ago
+            </small>
+        </div>
+    </div>
+
+<p>the success of every websites depends on search engine optimisation and digital marketing
+    strategy. if you are on first page of all majore search engines then your ahead among your competitors
+</p>
+<img src="linkedin-webpage-img/images/post-image-3.png" width="100%" alt="">
+
+<div class="post-stats">
+    <div>
+        <img src="linkedin-webpage-img/images/thumbsup.png" alt="">
+        <img src="linkedin-webpage-img/images/love.png" alt="">
+        <img src="linkedin-webpage-img/images/clap.png" alt="">
+        <span class="liked-user">anubhav joshi and 75 others</span>
+    </div>
+
+    <div>
+        <span>22 comments &middot; 40 share</span>
+    </div>
+</div>
+
+
+<div class="post-activity">
+    <div>
+        <img src="linkedin-webpage-img/images/user-1.png" class="post-activity-user-icon" alt="">
+   <img src="linkedin-webpage-img/images/down-arrow.png" class="post-activity-arrow-icon" alt="">
+    </div>
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/like.png" alt="">
+        <span>like</span>
+    </div>
+
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/comment.png" alt="">
+        <span>comment</span>
+    </div>
+
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/share.png" alt="">
+        <span>share</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/send.png" alt="">
+        <span>send</span>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+<div class="post">
+    <div class="post-author">
+        <img src="linkedin-webpage-img/images/user-5.png" alt="">
+        <div>
+            <h1>benjamin franklin</h1>
+            <small>founder and ceo at gellelio group | angel investor</small>
+            <small>
+                2 hours ago
+            </small>
+        </div>
+    </div>
+
+<p>the success of every websites depends on search engine optimisation and digital marketing
+    strategy. if you are on first page of all majore search engines then your ahead among your competitors
+</p>
+<img src="linkedin-webpage-img/images/post-image-4.png" width="100%" alt="">
+
+<div class="post-stats">
+    <div>
+        <img src="linkedin-webpage-img/images/thumbsup.png" alt="">
+        <img src="linkedin-webpage-img/images/love.png" alt="">
+        <img src="linkedin-webpage-img/images/clap.png" alt="">
+        <span class="liked-user">anubhav joshi and 75 others</span>
+    </div>
+
+    <div>
+        <span>22 comments &middot; 40 share</span>
+    </div>
+</div>
+
+
+<div class="post-activity">
+    <div>
+        <img src="linkedin-webpage-img/images/user-1.png" class="post-activity-user-icon" alt="">
+   <img src="linkedin-webpage-img/images/down-arrow.png" class="post-activity-arrow-icon" alt="">
+    </div>
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/like.png" alt="">
+        <span>like</span>
+    </div>
+
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/comment.png" alt="">
+        <span>comment</span>
+    </div>
+
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/share.png" alt="">
+        <span>share</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="linkedin-webpage-img/images/send.png" alt="">
+        <span>send</span>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!--right-sidebar-->
+    <div class="right-sidebar">
+<div class="sidebar-news">
+    <img src="linkedin-webpage-img/images/more.png" class="info-icon" alt="">
+    <h3>trending news</h3>
+    <a href="#">high demand for skilled manpower</a>
+    <span>1d ago &middot; 10,934 readers</span>
+
+    <a href="#">careers growing horizontally too</a>
+    <span>20h ago &middot; 10,4 readers</span>
+
+    <a href="#">less work visa for us , more for uk</a>
+    <span>2d ago &middot; 10,934 readers</span>
+
+    <a href="#">more hiring = higher confidence?</a>
+    <span>8d ago &middot; 10,934 readers</span>
+
+    <a href="#">gautam daani is the world third richest</a>
+    <span>8h ago &middot; 10,934 readers</span>
+
+    <a href="#" class="read-more-link">read more</a>
+</div>
+
+
+<div class="sidebar-ad">
+    <small>ad &middot; &middot; &middot;</small>
+    <p>master the 5 principles of web design</p>
+    <div>
+        <img src="linkedin-webpage-img/images/user-1.png" alt="">
+        <img src="linkedin-webpage-img/images/mi-logo.png" alt="">
+    </div>
+    <b>brand and demand in xiaomi</b>
+    <a href="#" class="ad-link">learn more</a>
+</div>
+
+<div class="sidebar-useful-links">
+    <a href="#">about</a>
+    <a href="#">accessibitlity</a>
+    <a href="#">help center</a>
+<a href="#">privacy policy</a>
+<a href="#">advertising</a>
+<a href="#">get the app</a>
+<a href="#">more</a>
+<div class="copyright-msg">
+    <img src="linkedin-webpage-img/images/logo.png" alt="">
+    <p>linkedup &#169; 2022 . All right reserved</p>
+</div>
+</div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="in.js"></script>
+</body>
+</html>
